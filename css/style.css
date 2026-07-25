@@ -227,6 +227,95 @@ footer {
         opacity:1;
 
         transform:translateY(0);
+
+
+        /* MODO ESCURO */
+
+.dark {
+
+    background-color: #222;
+    color: white;
+
+}
+
+
+.dark .navbar {
+
+    background-color: #111 !important;
+
+}
+
+
+.dark .nav-link {
+
+    color: white !important;
+
+}
+
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4 {
+
+    color: white;
+
+}
+
+
+.dark p {
+
+    color: #ddd;
+
+}
+
+
+.dark .card {
+
+    background-color: #333;
+    color: white;
+    border-color: #555;
+
+}
+
+
+.dark .card-body {
+
+    color: white;
+
+}
+
+
+/* Animação do botão */
+
+.pular {
+
+    animation: pular 0.5s;
+
+}
+
+
+@keyframes pular {
+
+    0% {
+
+        transform: scale(1);
+
+    }
+
+    50% {
+
+        transform: scale(1.3);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+    }
+
+}
         
 
     }
