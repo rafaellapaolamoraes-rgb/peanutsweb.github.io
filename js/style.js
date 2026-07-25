@@ -1,31 +1,21 @@
 let escuro = false;
 
 function tema() {
-
     escuro = !escuro;
 
-    document.getElementById("body")
-        .classList.toggle("dark");
+    document.body.classList.toggle("dark");
 
+    const imagem = document.getElementById("iconeTema");
 
-    let imagem = document.getElementById("iconeTema");
+    if (!imagem) return;
 
-
-    if (escuro) {
-
-        imagem.src = "imagens/slime-noite.png";
-
-    } else {
-
-        imagem.src = "imagens/slime-dia (1).png";
-
-    }
-
+    imagem.src = escuro
+        ? "imagens/slime-noite.png"
+        : "imagens/slime-dia (1).png";
 
     imagem.classList.add("pular");
 
     setTimeout(() => {
         imagem.classList.remove("pular");
     }, 500);
-
 }
