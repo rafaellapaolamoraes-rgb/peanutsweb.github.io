@@ -1,10 +1,8 @@
 let escuro = false;
 
-
 function tema() {
 
     escuro = !escuro;
-
 
     document.getElementById("body")
         .classList.toggle("dark");
@@ -23,10 +21,11 @@ function tema() {
 
     }
 
+
+    imagem.classList.add("pular");
+
+    setTimeout(() => {
+        imagem.classList.remove("pular");
+    }, 500);
+
 }
-
-imagem.classList.add("pular");
-
-setTimeout(() => {
-    imagem.classList.remove("pular");
-}, 500);
