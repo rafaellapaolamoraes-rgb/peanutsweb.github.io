@@ -22,6 +22,21 @@
 
 <body id="body">
 
+    <!-- ALERTA -->
+
+    <div class="container mt-3">
+    <div class="alert alert-dismissible fade show shadow-sm d-flex align-items-center justify-content-between
+        p-3" role="alert" style="background-color: #E8DAF5; color: #3D2E4D; border: 1px solid #D6C2EB; border-radius: 12px;">
+        <div>
+            <h5 class="alert-heading mb-1 fw-bold titulo-estiloso">Bem-vindo(a) ao Peanuts Web!</h5>
+            <p class="mb-0 small">alert("🐾 É um prazer ter você aqui. Neste site, você poderá conhecer um pouco
+                da história da Peanuts, descobrir quem criou, quando surgiu e muito mais. Além de diversas fotos
+                e curiosidades sobre a série que conquista gerações.");</p>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Fechar"></button>
+    </div>
+</div>
+
     <!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-lg navbar-light shadow">
@@ -60,6 +75,10 @@
                         <a class="nav-link" href="#galeria">Galeria</a>
                     </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carrossel">Carrossel</a>
+                    </li>
+
                       <li class="nav-item">
                         <a class="nav-link" href="#curiosidades">Curiosidades</a>
                     </li>
@@ -67,6 +86,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contato">Contato</a>
                     </li>
+
 
                 </ul>
 
@@ -88,7 +108,7 @@
 
         <div class="container text-center">
 
-            <h1>Bem-vindo ao Peanuts Web</h1>
+            <h1>Peanuts Web</h1>
 
             <p>
 
@@ -230,25 +250,107 @@
         <div class="row mt-4 g-3">
 
             <div class="col-md-3">
-                <img src="img/galeria1.jpg" class="img-fluid rounded-4 sombra">
+                <img src="img/imagem.jpeg" class="img-fluid rounded-4 sombra">
             </div>
 
             <div class="col-md-3">
-                <img src="img/galeria2.jpg" class="img-fluid rounded-4 sombra">
+                <img src="img/imagem2.jpeg" class="img-fluid rounded-4 sombra">
             </div>
 
             <div class="col-md-3">
-                <img src="img/galeria3.jpg" class="img-fluid rounded-4 sombra">
+                <img src="img/imagem3.jpeg" class="img-fluid rounded-4 sombra">
             </div>
 
             <div class="col-md-3">
-                <img src="img/galeria4.jpg" class="img-fluid rounded-4 sombra">
+                <img src="img/imagem4.jpeg" class="img-fluid rounded-4 sombra">
+            </div>
+            
+             <div class="col-md-3">
+                <img src="img/imagem5.jpeg" class="img-fluid rounded-4 sombra">
+            </div>
+            
+             <div class="col-md-3">
+                <img src="img/imagem6.jpeg" class="img-fluid rounded-4 sombra">
+            </div>
+            
+             <div class="col-md-3">
+                <img src="img/imagem7.jpeg" class="img-fluid rounded-4 sombra">
             </div>
 
         </div>
 
     </section>
 
+    <!-- INÍCIO DO CARROSSEL -->
+    <div id="carrosselGaleria" class="carousel slide mx-auto" style="max-width: 400px;" data-bs-ride="carousel">
+        
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrosselGaleria" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carrosselGaleria" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carrosselGaleria" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carrosselGaleria" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#carrosselGaleria" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#carrosselGaleria" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#carrosselGaleria" data-bs-slide-to="6"></button>
+            <button type="button" data-bs-target="#carrosselGaleria" data-bs-slide-to="7"></button>
+            <button type="button" data-bs-target="#carrosselGaleria" data-bs-slide-to="8"></button>
+            <button type="button" data-bs-target="#carrosselGaleria" data-bs-slide-to="9"></button>
+        </div>
+
+        <!-- Fotos do Carrossel -->
+        <div class="carousel-inner rounded shadow">
+            
+            <!-- Imagem 1 (A primeira precisa da classe 'active') -->
+            <div class="carousel-item active">
+                <img src="imagens/bob.jpg" class="d-block w-0" alt="Foto 1" style="height: 400px; object-fit: cover;">
+            </div>
+
+            <!-- Imagem 2 -->
+            <div class="carousel-item">
+                <img src="imagens/jorge.jpg" class="d-block w-0" alt="Foto 2" style="height: 400px; object-fit: cover;">
+            </div>
+
+            <!-- Imagem 3 -->
+            <div class="carousel-item">
+                <img src="imagens/mario.jpg" class="d-block w-0" alt="Foto 3" style="height: 400px; object-fit: cover;">
+            </div>
+
+            <!-- Imagem 4 -->
+            <div class="carousel-item">
+                <img src="imagens/mickey.jpg" class="d-block w-0" alt="Foto 4" style="height: 400px; object-fit: cover;">
+            </div>
+
+            <!-- Imagem 5 -->
+            <div class="carousel-item">
+                <img src="imagens/naruto.jpg" class="d-block w-0" alt="Foto 5" style="height: 400px; object-fit: cover;">
+            </div>
+
+            <!-- Imagem 6 -->
+            <div class="carousel-item">
+                <img src="imagens/patolino.jpg" class="d-block w-0" alt="Foto 6" style="height: 400px; object-fit: cover;">
+            </div>
+
+            <!-- Imagem 7 -->
+            <div class="carousel-item">
+                <img src="imagens/batman.jpg" class="d-block w-0" alt="Foto 7" style="height: 400px; object-fit: cover;">
+            </div>
+
+            <!-- Imagem 8 -->
+            <div class="carousel-item">
+                <img src="imagens/pikachu.jpg" class="d-block w-0" alt="Foto 8" style="height: 400px; object-fit: cover;">
+            </div>
+
+            <!-- Imagem 9 -->
+            <div class="carousel-item">
+                <img src="imagens/snoopy.jpg" class="d-block w-0" alt="Foto 9" style="height: 400px; object-fit: cover;">
+            </div>
+
+            <!-- Imagem 10 -->
+            <div class="carousel-item">
+                <img src="imagens/stitch.jpg" class="d-block w-0" alt="Foto 10" style="height: 400px; object-fit: cover;">
+            </div>
+
+        </div>
 
     
     <!-- CURIOSIDADES -->
@@ -309,6 +411,7 @@
         </div>
 
     </section>
+        
 
     <!-- CONTATO -->
 
@@ -339,6 +442,32 @@
             </button>
 
         </form>
+
+   <!-- VOLTAR AO TOPO -->
+        
+          <span id="data-hora">Carregando...</span></p>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+    function atualizarDataHora() {
+        const agora = new Date();
+
+        const dataFormatada = agora.toLocaleDateString('pt-BR');
+        const horaFormatada = agora.toLocaleTimeString('pt-BR');
+
+        document.getElementById('data-hora').innerHTML = 
+            `Acessado em: ${dataFormatada} às ${horaFormatada}`;
+    }
+
+    atualizarDataHora();
+
+    setInterval(atualizarDataHora, 1000);
+</script>
+
+    <!-- RODAPE -->
 
     </section>
 
