@@ -42,6 +42,24 @@ body {
 
 }
 
+.btn-explorar{
+    background-color: #fff4b8;
+    color: #333;
+    border: 2px solid #f4d35e;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn-explorar:hover{
+    background-color: #f4d35e;
+    color: #333;
+    transform: scale(1.05);
+}
 
 /* CARDS DOS PERSONAGENS */
 
