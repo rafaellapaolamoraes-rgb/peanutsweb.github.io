@@ -10,8 +10,8 @@ function tema() {
     if (!imagem) return;
 
     imagem.src = escuro
-        ? "imagens/slime-noite.png"
-        : "imagens/slime-dia (1).png";
+        ? "imagens/snoopinoite.jpeg"
+        : "imagens/snoopydia.jpeg";
 
     imagem.classList.add("pular");
 
