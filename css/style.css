@@ -19,29 +19,6 @@ body {
 
 /* BANNER PRINCIPAL */
 
-.hero {
-
-    height: 90vh;
-    background: url("../img/banner.jpg") center;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    text-align: center;
-    color: light gray;
-
-}
-
-
-.hero h1 {
-
-    font-size: 60px;
-    text-shadow: 3px 3px 12px black;
-
-}
-
 .btn-explorar{
     background-color: #fff4b8;
     color: #333;
