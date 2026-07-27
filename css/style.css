@@ -96,6 +96,21 @@ body {
     margin:5px 0;
 }
 
+.btn-topo{
+    background-color: #fff4b8;
+    color: #333;
+    border: 2px solid #f4d35e;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-topo:hover{
+    background-color: #f4d35e;
+    transform: scale(1.05);
+}
+
 /* MODO ESCURO */
 
 .dark {
