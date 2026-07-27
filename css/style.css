@@ -85,22 +85,16 @@ body {
 
 }
 
- /* RODAPÉ */
-
-.footer {
-    width: 100%;
-    background-color: #fff4b8; 
-    color: #333;
-    padding: 30px;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 40px;
+.rodape{
+    background-color:#fff4b8;
+    color:#333;
+    width:100%;
+    padding:20px 0;
 }
 
-footer p{
-    margin: 5px 0;
+.rodape p{
+    margin:5px 0;
 }
-
 
 /* MODO ESCURO */
 
